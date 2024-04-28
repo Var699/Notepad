@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding-top: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar li:hover {
+  background-color: #ddd;
+}
+
+.content {
+  margin-left: 150px; /* Adjust margin to account for navbar width */
+  padding: 20px;
+}

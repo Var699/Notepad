@@ -1,0 +1,30 @@
+/* NavBar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* Navbar list */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar list items */
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Change color on hover */
+  li:hover {
+    color: #FFD700; /* Gold color on hover */
+  }
+  
